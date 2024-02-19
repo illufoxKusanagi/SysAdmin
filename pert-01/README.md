@@ -20,6 +20,8 @@ Kelas            : D4 IT A
 - kemudian, pilih size virtual hard disk yang diinginkan. Namun, perlu disesuaikan dengan kemampuan hardware user. 
   <br><img src="assets/setting storage.png" width="500"><br>
 
+**<h2 style="font-family:bahnschrift;">Instalasi</h2>**
+
 - Lalu klik next, maka user akan masuk ke halaman pertama instalasi, lalu pilih graphical install
   <br><img src="assets/01 install gui.png" width="500"><br>
 
@@ -63,6 +65,8 @@ Kelas            : D4 IT A
 - Setelah proses instalasi selesai, akan muncul notifikasi berikut 
   <br><img src="assets/17 setup complete.png" width="500"><br>
 
+
+**<h2 style="font-family:bahnschrift;">Setup akhir</h2>**
 - Setelah itu, anda bisa login ke OS debian dan siap digunakan
   <br><img src="assets/welcome.png" width="500"><br>
 
