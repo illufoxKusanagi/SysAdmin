@@ -186,7 +186,7 @@ $ su - arief
 
 **<h1 style="font-family:bahnschrift;">Penjelasan mengenai $less /etc/group</h1>**
 
->
+>Command yang berfungsi untuk melihat isi berkas secara bertahap
 
 </summary>
 
