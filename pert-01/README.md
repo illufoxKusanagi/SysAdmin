@@ -4,16 +4,26 @@ NRP              : 3122600015
 Kelas            : D4 IT A
 Dosen Pengampu   : Dr. Ferry Astika Saputra S.T., M.Sc
 
-___________________________________________
-|               Daftar tugas              |
-|-----------------------------------------|
-|   Instalasi Debian                      |
-|   Penjelasan role yang ada pada linux   |
-|   Perbedaan command su dengan su -      |
-|   Penjelasan mengenai $less /etc/group  |
-```
-**<h1 style="font-family:bahnschrift;">Instalasi Debian Linux menggunakan Virtual Box</h1>**
+_________________________________________________________
+|                       Daftar tugas                    |
+|-------------------------------------------------------|
+|   Instalasi Debian                                    |
+|   Penjelasan role yang ada pada linux                 |
+|   Perbedaan command su dengan su -                    |
+|   Penjelasan mengenai $less /etc/group                |
+|   Penjelasan mengenai $less /etc/group                |
+|   Penjelasan fungsi sudo                              |
+|   Menjalankan langkah penambahan user sbg user sudo   |
 
+```
+
+<details>
+<summary>
+
+**<h1 style="font-family:bahnschrift;">Instalasi Debian Linux menggunakan Virtual Box</h1>**
+>Proses instalasi debian 12 menggunakan virtual box
+
+</summary>
 
 **<h3 style="font-family:bahnschrift;">Pra instalasi</h3>**
 - Setelah men-download file iso dari debian 12(yang mahasiswa gunakan), buka vbox, lalu klik new
@@ -84,7 +94,16 @@ ___________________________________________
     <img src="assets/welcome 2.png" width="500"><br>
     <img src="assets/welcome 3.png" width="500"><br>
 
+</details>
+
+<details>
+<summary>
+
 **<h1 style="font-family:bahnschrift;">Role yang ada pada linux</h1>**
+>Macam-macam role yang ada pada linux
+
+</summary>
+
 1. User (Pengguna):
     >Pengguna adalah individu yang dapat mengakses sistem. Masing-masing pengguna memiliki akunnya sendiri dengan hak akses tertentu.
     
@@ -131,10 +150,16 @@ ___________________________________________
     >Berfungsi sebagai pusat penyimpanan dan distribusi file di dalam jaringan.
 
     >Tugas: Berbagi file, mengelola izin akses, dan menyediakan penyimpanan berbasis jaringan (NAS).
+</details>
+
+
+<details>
+<summary>
 
 **<h1 style="font-family:bahnschrift;">Perbedaan su dan su - pada linux</h1>**
-
   >command su pada linux memungkinkan user untuk mempertahankan current user environtment ketika switch user. Sedangkan su - digunakan untuk mengeksekusi shell login untuk transfer user account tertentu, serta secara umum mengubah environtment variables dan working directory set di environtmen milik user tertentu.
+
+</summary>
 
 **<h3 style="font-family:bahnschrift;">Perintah su</h3>**
 
@@ -147,15 +172,30 @@ $ su arief
 >dengan menjalankan perintah tersebut, user saat ini akan dialihkan ke user yang bernama 'arief' tanpa perlu menjalankan login shell, serta setting environtment variables yang tetap.
 
 **<h3 style="font-family:bahnschrift;">Perintah su -</h3>**
-    
-  Pada command ini, user dapat beralih ke user lain, sama seperti perintah su. Namun, setting dari user saat ini akan diubah, dan environtment variables dari main user akan dihapus. 
+  >Pada command ini, user dapat beralih ke user lain, sama seperti perintah su. Namun, setting dari user saat ini akan diubah, dan environtment variables dari main user akan dihapus. 
 - **contoh :**
 ```
 $ su - arief 
 ```
 >perintah ini digunakan untuk beralih ke user 'arief' dengan menjalankan shell login. Jika user tidak menentukan user secara spesifik ke perintah ini, maka secara default user akan masuk ke Root.
+</details>
+
+
+<details>
+<summary>
 
 **<h1 style="font-family:bahnschrift;">Penjelasan mengenai $less /etc/group</h1>**
 
+>
+
+</summary>
+
 <br><img src="assets/deb1.png" width="500"><br>
->Command ini akan membuka berkas group yang terletak di direktori /etc/ menggunakan less. less digunakan untuk melihat isi berkas secara bertahap dan memungkinkan untuk melakukan navigasi dengan lebih mudah. Kita dapat menggunakan tombol "Page Up" dan "Page Down", dan berbagai opsi lainnya untuk membaca dan menjelajahi isi berkas tersebut.
+
+Command ini akan membuka berkas group yang terletak di direktori /etc/ menggunakan less. less digunakan untuk melihat isi berkas secara bertahap dan memungkinkan untuk melakukan navigasi dengan lebih mudah. Kita dapat menggunakan tombol "Page Up" dan "Page Down", dan berbagai opsi lainnya untuk membaca dan menjelajahi isi berkas tersebut.
+
+</details>
+
+    
+
+
