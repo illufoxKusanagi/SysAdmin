@@ -3,18 +3,6 @@ Nama             : Muhammad Arief Satria Wibawa
 NRP              : 3122600015
 Kelas            : D4 IT A
 Dosen Pengampu   : Dr. Ferry Astika Saputra S.T., M.Sc
-
-_________________________________________________________
-|                       Daftar tugas                    |
-|-------------------------------------------------------|
-|   Instalasi Debian                                    |
-|   Penjelasan role yang ada pada linux                 |
-|   Perbedaan command su dengan su -                    |
-|   Penjelasan mengenai $less /etc/group                |
-|   Penjelasan mengenai $less /etc/group                |
-|   Penjelasan fungsi sudo                              |
-|   Menjalankan langkah penambahan user sbg user sudo   |
-
 ```
 
 <details>
