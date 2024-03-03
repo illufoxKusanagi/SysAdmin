@@ -60,14 +60,14 @@ Daftar isi :
 
 **<h1 style="font-family:bahnschrift;">Tugas 2</h1>**
 **<h2 style="font-family:bahnschrift;">Dasar Sistem Administrasi</h2>**
-<br><img src="assets/001.png"><br>
-<br><img src="assets/002.png"><br>
-<br><img src="assets/003.png"><br>
-<br><img src="assets/004.png"><br>
-<br><img src="assets/005.png"><br>
-<br><img src="assets/006.png"><br>
-<br><img src="assets/007.png"><br>
-<br><img src="assets/008.png"><br>
+<br><img src="assets/001.png" width="100%"><br>
+<br><img src="assets/002.png" width="100%"><br>
+<br><img src="assets/003.png" width="100%"><br>
+<br><img src="assets/004.png" width="100%"><br>
+<br><img src="assets/005.png" width="100%"><br>
+<br><img src="assets/006.png" width="100%"><br>
+<br><img src="assets/007.png" width="100%"><br>
+<br><img src="assets/008.png" width="100%"><br>
 
 **<h1 style="font-family:bahnschrift;">Tugas 3</h1>**
 **<h2 style="font-family:bahnschrift;">Mengubah DHCP Manual</h2>**
