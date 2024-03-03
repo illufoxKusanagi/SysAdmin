@@ -5,9 +5,22 @@ Kelas            : D4 IT A
 Dosen Pengampu   : Dr. Ferry Astika Saputra S.T., M.Sc
 ```
 
+```copy code 
+Daftar isi : 
+- Tugas 1
+    Standar struktur pada linux
+- Tugas 2 
+    Slide dasar Administrasi Sistem Jaringan
+- Tugas 3
+
+```
+
 **<h1 style="font-family:bahnschrift;">Tugas 1</h1>**
 **<h2 style="font-family:bahnschrift;">Standar struktur direktori pada linux</h2>**
     <br><img src="assets/tree.jpg" width="500"><br>
+
+>tiap direktori memiliki artinya masing-masing, diantaranya : 
+
 - ```/root```
     Ini merupakan direktori utama dimana semua operasi linux ada di sini. Direktori ini membawahi semua direktori sistem yang ada pada linux.
 - ```/boot```
@@ -47,3 +60,23 @@ Dosen Pengampu   : Dr. Ferry Astika Saputra S.T., M.Sc
 
 **<h1 style="font-family:bahnschrift;">Tugas 2</h1>**
 **<h2 style="font-family:bahnschrift;">Dasar Sistem Administrasi</h2>**
+<br><img src="assets/001.png"><br>
+<br><img src="assets/002.png"><br>
+<br><img src="assets/003.png"><br>
+<br><img src="assets/004.png"><br>
+<br><img src="assets/005.png"><br>
+<br><img src="assets/006.png"><br>
+<br><img src="assets/007.png"><br>
+<br><img src="assets/008.png"><br>
+
+**<h1 style="font-family:bahnschrift;">Tugas 3</h1>**
+**<h2 style="font-family:bahnschrift;">Mengubah DHCP ke Manual</h2>**
+
+**<h3 style="font-family:bahnschrift;">1. Menuju ke setting->network lalu klik ikon + seperti pada gambar.</h3>**
+  <br><img src="assets/dhcp1.jpg"><br>
+
+**<h3 style="font-family:bahnschrift;">2. Ubah konfigurasi address dan DNS seperti pada gambar.</h3>**
+  <br><img src="assets/dhcp2.jpg"><br>
+
+**<h3 style="font-family:bahnschrift;">3. Tes ping ke DNS google melalui terminal.</h3>**
+  <br><img src="assets/dhcp3.jpg"><br>
