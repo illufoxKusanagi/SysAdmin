@@ -17,7 +17,7 @@ Daftar isi :
 
 **<h1 style="font-family:bahnschrift;">Tugas 1</h1>**
 **<h2 style="font-family:bahnschrift;">Standar struktur direktori pada linux</h2>**
-    <br><img src="assets/tree.jpg" width="500"><br>
+    <br><img src="assets/tree.jpg" width="50%"><br>
 
 >tiap direktori memiliki artinya masing-masing, diantaranya : 
 
