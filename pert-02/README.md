@@ -12,7 +12,7 @@ Daftar isi :
 - Tugas 2 
     Slide dasar Administrasi Sistem Jaringan
 - Tugas 3
-
+    Mengubah DHCP Manual
 ```
 
 **<h1 style="font-family:bahnschrift;">Tugas 1</h1>**
@@ -70,7 +70,7 @@ Daftar isi :
 <br><img src="assets/008.png"><br>
 
 **<h1 style="font-family:bahnschrift;">Tugas 3</h1>**
-**<h2 style="font-family:bahnschrift;">Mengubah DHCP ke Manual</h2>**
+**<h2 style="font-family:bahnschrift;">Mengubah DHCP Manual</h2>**
 
 **<h3 style="font-family:bahnschrift;">1. Menuju ke setting->network lalu klik ikon + seperti pada gambar.</h3>**
   <br><img src="assets/dhcp1.jpg"><br>
