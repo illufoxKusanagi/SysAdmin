@@ -10,7 +10,7 @@ Dosen Pengampu   : Dr. Ferry Astika Saputra S.T., M.Sc
 2. [Docker Simple Project](#dockerSimple)
 3. [Docker tasks](#DockerTasks)
 
-# _INSTALL DOCKER ENGINE ON DEBIAN 12_ <a name="installDocker"></a>
+# _INSTALL DOCKER ENGINE ON DEBIAN 12_ <a id="installDocker"></a>
 
 ## MENGHAPUS VERSI LAMA (Jika sebelumnya pernah memasang)
 
@@ -28,7 +28,7 @@ Ketik `for pkg in docker.io docker-doc docker-compose podman-docker containerd r
   - `sudo chmod a+r /etc/apt/keyrings/docker.asc`:
   - `echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian \
-  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+  $(. /etc/os-release && echo "$VERSION_CODEid") stable" | \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null`:
 
       ![](assets/docker2.png)
@@ -55,7 +55,7 @@ Untuk memverifikasi bahwa penginstalan berhasil gunakan perintah:
     ![](assets/dockerc.png)
 
 
-# _DOCKER SIMPLE PROJECT_ <a name="dockerSimple"></a>
+# _DOCKER SIMPLE PROJECT_ <a id="dockerSimple"></a>
 
 ## CLONE PROJECT
 
@@ -81,14 +81,14 @@ Jalankan pada firefox dengan mengetikkan:
 - `localhost:3000`
     ![](assets/docktest3.png)
 
-# _DOCKER TASKS_ <a name="dockerTasks"></a>
+# _DOCKER TASKS_ <a id="dockerTasks"></a>
 ## INSTALASI UPTIME KUMA
 - Ketikkan `mkdir uptime-kuma` pada direktori home
 - Clone project dari github resmi dari uptime kuma dengan perintah `git clone https://github.com/louislam/uptime-kuma.git`
 - Membuat file yml dengan perintah `touch docker-compose.yml`
 - Mengedit isi dari file yml dengan perintah `sudo nano docker-compose.yml` dengan isi sebagai berikut : 
 ![Kuma yml](assets/yamlFile.png)
-- Install Docker uptime kuma dengan perintah `sudo docker run -d --restart=always -p 3001:3001 -v uptime-kuma:/app/data --name uptime-kuma louislam/uptime-kuma:1`
+- Install Docker uptime kuma dengan perintah `sudo docker run -d --restart=always -p 3001:3001 -v uptime-kuma:/app/data --id uptime-kuma louislam/uptime-kuma:1`
 - ![Kuma install](assets/installKuma.jpg)
 - Menjalankan perintah `docker ps` untuk memeriksa apakah suatu container sedang berjalan
 ![Docker ps](assets/dockerPs.jpg)
