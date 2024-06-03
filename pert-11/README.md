@@ -97,4 +97,16 @@ Jalankan pada firefox dengan mengetikkan:
 - Jika berhasil, coba jalankan di firefox dengan mengetikkan `localhost:3001` dan akan muncul tampilan berikut
 ![Kuma landing page](assets/kumaLanding.jpg)
 
-## SETTING REVERSE PROXY 
+## SETTING REVERSE PROXY  
+- Pull Docker portainer dengan sintaks `docker pull portainer/portainer-ce`
+- Run container portainer menggunakan sintaks berikut :
+  ```
+  docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
+  ```
+- Mengganti apache2.conf seperti berikut
+- Setelah selesai, restart Apache serta container dengan sintaks
+  ```
+  systemctl restart apache2
+  docker restart portainer  
+  ```
+- Cek pada browser apakah portainer bisa dijalankan di ns.kelompok7.local
